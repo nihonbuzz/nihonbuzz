@@ -56,7 +56,7 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="relative flex items-center gap-2 group">
           <Image
-            src="/assets/logo-white.png"
+            src="/brand/Nihonbuzz-Logo-Landscape-White.png"
             alt="NihonBuzz"
             width={140}
             height={40}
