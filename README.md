@@ -1,4 +1,4 @@
-# <img src="public/assets/logo-main.png" width="40" height="40" alt="NihonBuzz Logo" style="vertical-align: middle;"> NihonBuzz
+# <img src="public/brand/Nihonbuzz-Logo-Light.png" width="40" height="40" alt="NihonBuzz Logo" style="vertical-align: middle;"> NihonBuzz
 
 **Connecting Indonesia & Japan through Education, Media, and Community.**
 
