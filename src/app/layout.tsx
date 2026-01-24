@@ -9,7 +9,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "NihonBuzz - Connecting You to Japan",
+  title: "Nihonbuzz - Connecting You to Japan",
   description: "Platform edukasi dan media Jepang terdepan di Indonesia. Belajar bahasa Jepang (JLPT N5-N3), budaya, dan info karir.",
   icons: {
     icon: [
@@ -25,16 +25,16 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "NihonBuzz - Connecting You to Japan",
-    description: "Belajar Bahasa Jepang & Karir Profesional. Gabung NihonBuzz Academy sekarang.",
+    title: "Nihonbuzz - Connecting You to Japan",
+    description: "Belajar Bahasa Jepang & Karir Profesional. Gabung Nihonbuzz Academy sekarang.",
     url: 'https://nihonbuzz.org',
-    siteName: 'NihonBuzz',
+    siteName: 'Nihonbuzz',
     images: [
       {
         url: '/opengraph-image.png',
         width: 1200,
         height: 630,
-        alt: 'NihonBuzz Ecosystem',
+        alt: 'Nihonbuzz Ecosystem',
       },
     ],
     locale: 'id_ID',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "NihonBuzz - Connecting You to Japan",
+    title: "Nihonbuzz - Connecting You to Japan",
     description: "Platform edukasi dan media Jepang terdepan di Indonesia.",
     images: ['/opengraph-image.png'],
     creator: '@nihonbuzz',
