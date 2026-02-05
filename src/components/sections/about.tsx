@@ -37,8 +37,7 @@ export function About() {
            Visi dan <span className="text-primary">Misi kami </span>
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-            Nihonbuzz hadir untuk menjembatani ketertarikan generasi muda Indonesia terhadap Jepang 
-            dengan cara yang ringan, relevan, dan informatif.
+            Setiap perjalanan besar selalu dimulai dari satu langkah kecil. Melalui #LangkahKeJepang, Nihonbuzz hadir untuk menjadi teman di awal perjalanan itu, mendampingi siapa pun yang ingin bekerja dan meraih masa depan di Jepang.
           </p>
           
           <div className="grid md:grid-cols-2 gap-8 text-left bg-card/30 p-8 rounded-3xl border border-white/5">
