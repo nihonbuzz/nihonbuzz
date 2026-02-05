@@ -64,7 +64,7 @@ export function Hero() {
             variants={itemVariants}
             className="max-w-2xl text-lg md:text-xl text-muted-foreground leading-relaxed"
         >
-          Nihonbuzz Academy lahir dari semangat untuk menghadirkan pengalaman belajar bahasa dan budaya Jepang yang tidak sekadar informatif, tetapi juga inspiratif. <br/>Kami percaya bahwa bahasa adalah jembatan peradaban, dan melalui bahasa Jepang, terbentang kesempatan luas bagi siapa pun yang ingin menapaki dunia baru, baik dalam pendidikan, karier, maupun pengembangan diri. 
+          Nihonbuzz Academy lahir dari semangat untuk menghadirkan pengalaman belajar bahasa dan budaya Jepang yang tidak sekadar informatif, tetapi juga inspiratif.
         </motion.p>
 
         <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 mt-4">
