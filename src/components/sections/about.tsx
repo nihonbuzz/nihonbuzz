@@ -50,10 +50,10 @@ export function About() {
              <div>
                 <h4 className="text-xl font-bold text-white mb-2">Misi Utama</h4>
                 <ul className="text-sm text-muted-foreground space-y-2 list-disc list-inside">
-                    <li> Menyediakan pembelajaran berkualitas dengan metode interaktif, relevan, dan mudah diakses siapa saja.</li>
-                    <li> Menghubungkan pendidikan dengan dunia industri, sehingga peserta tidak hanya belajar teori, tetapi juga siap menghadapi kebutuhan kerja nyata.</li>
-                    <li> Memberikan dukungan pengajar berpengalaman yang mampu membimbing peserta dari dasar hingga tingkat mahir.</li>
-                   <li> Menjadi mitra perjalanan bagi generasi muda dalam meraih mimpi melalui bahasa Jepang, baik untuk studi, karier, maupun pengalaman internasional.</li>
+                    <li> Menyediakan pembelajaran berkualitas dengan metode interaktif, relevan, dan mudah diakses siapa saja. </li>
+                    <li> Menghubungkan pendidikan dengan dunia industri, sehingga peserta tidak hanya belajar teori, tetapi juga siap menghadapi kebutuhan kerja nyata. </li>
+                    <li> Memberikan dukungan pengajar berpengalaman yang mampu membimbing peserta dari dasar hingga tingkat mahir. </li>
+                   <li> Menjadi mitra perjalanan bagi generasi muda dalam meraih mimpi melalui bahasa Jepang, baik untuk studi, karier, maupun pengalaman internasional. </li>
                 </ul>
              </div>
           </div>
