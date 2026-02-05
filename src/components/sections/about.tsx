@@ -34,7 +34,7 @@ export function About() {
           className="text-center max-w-4xl mx-auto mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">
-            Menggali Keindahan <span className="text-primary">Budaya Jepang</span>
+           Visi dan <span className="text-primary">Misi kami </span>
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-8">
             Nihonbuzz hadir untuk menjembatani ketertarikan generasi muda Indonesia terhadap Jepang 
