@@ -54,9 +54,9 @@ export function Hero() {
             variants={itemVariants}
             className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white leading-[1.1]"
         >
-          Platform Edukasi <br />
+          Membuka Akses <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">
-            & Budaya Jepang
+            & Mewujudkan Harapan
           </span>
         </motion.h1>
 
