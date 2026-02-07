@@ -56,7 +56,7 @@ export function Hero() {
         >
           Membuka Akses <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">
-            & Mewujudkan Harapan
+             Mewujudkan Harapan
           </span>
         </motion.h1>
 
