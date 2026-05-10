@@ -1,0 +1,65 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "nihonbuzz",
+	"main": ".open-next/worker.js",
+	"compatibility_date": "2026-05-10",
+	"compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+	"assets": {
+		"binding": "ASSETS",
+		"directory": ".open-next/assets"
+	},
+	"images": {
+		// Enable image optimization
+		// see https://opennext.js.org/cloudflare/howtos/image
+		"binding": "IMAGES"
+	},
+	"services": [
+		{
+			// Self-reference service binding, the service name must match the worker name
+			// see https://opennext.js.org/cloudflare/caching
+			"binding": "WORKER_SELF_REFERENCE",
+			"service": "nihonbuzz"
+		}
+	],
+
+	// D1 Database (Serverless SQLite)
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "nihonbuzz",
+			"database_id": "61f246ef-a8e3-4fb3-ae71-34929f553914"
+		}
+	],
+
+	// R2 Object Storage
+	"r2_buckets": [
+		{
+			"binding": "R2_BUCKET",
+			"bucket_name": "nihonbuzz"
+		}
+	],
+
+	// KV Namespace
+	"kv_namespaces": [
+		{
+			"binding": "KV_CACHE",
+			"id": "20734b8d4d404635bb7b8cd24d4a2206"
+		}
+	],
+
+	// Analytics Engine
+	"analytics_engine_datasets": [
+		{
+			"binding": "ANALYTICS",
+			"dataset": "nihonbuzz"
+		}
+	],
+
+	"observability": {
+		"enabled": true
+	}
+}
